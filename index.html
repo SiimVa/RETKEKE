@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RETKEKE – Personaalsed seiklus- ja põgenemismängud</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Soovi korral võid lisada Google Fontsi, nt Inter:
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  -->
+</head>
+<body>
+  <!-- Sticky header -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#hero" class="brand">
+        <span class="brand-mark"></span>
+        RETKEKE
+      </a>
+
+      <button class="nav-toggle" aria-label="Ava menüü">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="#about">Kuidas töötab</a></li>
+          <li><a href="#features">Mängutüübid</a></li>
+          <li><a href="#portfolio">Tehtud tööd</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+        <a href="#contact" class="nav-cta">Küsi pakkumist</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="badge">Personaalsed seiklus- ja põgenemismängud</p>
+          <h1>Muuda oma üritus loo­põhiseks seikluseks.</h1>
+          <p class="hero-subtitle">
+            Loome sinu loo põhjal mängukogemuse, mis seob osalejad, ruumi
+            ja eesmärgid üheks tervikuks – olgu selleks meeskonnapäev,
+            sünnipäev või avalik üritus.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Räägi oma ideest</a>
+            <a href="#portfolio" class="btn btn-ghost">Vaata tehtud töid</a>
+          </div>
+          <div class="hero-meta">
+            <div>
+              <span class="meta-label">⏱ Kiire prototüüp</span>
+              <p>Esialgne mängukontseptsioon 3–5 tööpäevaga*</p>
+            </div>
+            <div>
+              <span class="meta-label">🎯 Täpselt sinu sihtrühmale</span>
+              <p>Eraldi stsenaarium koolidele, firmadele, avalikele sündmustele</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <p class="hero-card-label">Näidisskeem ühest mängust</p>
+          <div class="hero-card-inner">
+            <div class="hero-flow">
+              <div class="flow-step">
+                <span class="chip">1</span>
+                <div>
+                  <h3>Saabumine & legend</h3>
+                  <p>Osalejad astuvad sisse mängumaailma – video, lugu või näitleja.</p>
+                </div>
+              </div>
+              <div class="flow-step">
+                <span class="chip">2</span>
+                <div>
+                  <h3>Kontrollpunktid</h3>
+                  <p>Ajapõhised, loogikapõhised või füüsilised ülesanded.</p>
+                </div>
+              </div>
+              <div class="flow-step">
+                <span class="chip">3</span>
+                <div>
+                  <h3>Finaal & kokkuvõte</h3>
+                  <p>Lahenduse avalikustamine, tagasiside ja vajadusel refleksioon.</p>
+                </div>
+              </div>
+            </div>
+            <div class="hero-card-footer">
+              <span class="pill pill-success">Täielikult kohandatav</span>
+              <span class="pill">Siseruum / õues / hübriid</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KUIDAS TÖÖTAB -->
+    <section id="about" class="section section-alt">
+      <div class="container split">
+        <div class="split-text">
+          <h2>Kuidas koostöö välja näeb?</h2>
+          <p>
+            Meie roll on tõlkida sinu lugu mänguks. See tähendab, et
+            alustame alati eesmärgist: mida soovid, et osalejad kogeksid,
+            õpiksid või tunneksid.
+          </p>
+          <ul class="checklist">
+            <li>Koos täpsustame sihtrühma, kestuse ja ruumid.</li>
+            <li>Loome mängustruktuuri: legend, ülesanded, punktisüsteem.</li>
+            <li>Valmistame ette kõik materjalid: juhendid, print, rekvisiidid.</li>
+            <li>Soovi korral viime mängu ise läbi ja teeme lühikokkuvõtte.</li>
+          </ul>
+        </div>
+        <div class="split-card">
+          <h3>Millal meid kutsuda?</h3>
+          <div class="tag-list">
+            <span class="tag">Meeskonnapäev</span>
+            <span class="tag">Kooliüritus</span>
+            <span class="tag">Linnamäng</span>
+            <span class="tag">Konverentsi paus</span>
+            <span class="tag">Sünnipäev / juubel</span>
+          </div>
+          <p class="muted">
+            Ideaalne, kui soovid, et osalejad oleksid päriselt liikumises,
+            mõtleksid koos ja räägiksid pärast veel pikalt “sellest mängust”.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MÄNGUTÜÜBID -->
+    <section id="features" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Mida me saame sinu jaoks luua?</h2>
+          <p>
+            Vali valmisformaat või kasutame neid inspiratsioonina täiesti uue
+            lahenduse loomiseks.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Siseruumi põgenemismäng</h3>
+            <p>
+              Klassikaline escape room’i loogika, kuid stsenaarium, rekvisiidid
+              ja raskusaste on loodud konkreetselt sinu ürituse jaoks.
+            </p>
+            <ul class="card-list">
+              <li>30–90 minutit</li>
+              <li>Võimalik teha mitmes paralleelses ruumis</li>
+              <li>Sobib 6–60+ osalejale</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Linnamäng / väliseiklus</h3>
+            <p>
+              Kontrollpunktidega mäng linnaruumis või looduses – osalejad
+              liiguvad kaartide, vihjete ja QR-koodide toel.
+            </p>
+            <ul class="card-list">
+              <li>GPS / QR-koodidega kontrollpunktid</li>
+              <li>Ajapõhine või punktipõhine võistlus</li>
+              <li>Sobib suurtele gruppidele</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Hübriid- ja digimängud</h3>
+            <p>
+              Vajadusel ühendame füüsilise ruumi ja digitaalse keskkonna:
+              rakendused, videod, veebivihjed ja live-juhtimine.
+            </p>
+            <ul class="card-list">
+              <li>Toimib nii kontoris kui kodukontorites</li>
+              <li>Võimalik integreerida olemasoleva platvormiga</li>
+              <li>Kohandatavad ülesanded (loogika, teadmised, loovus)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOOLIO / PILDID -->
+    <section id="portfolio" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Tehtud tööd</h2>
+          <p>
+            Valik hetki projektidest, kus tavaline üritus on muutunud
+            terviklikuks seikluseks.
+          </p>
+        </div>
+        <div class="gallery">
+          <!-- Asenda src oma piltidega -->
+          <figure class="gallery-item">
+            <img src="images/work-1.jpg" alt="Mäng punktidega tööstushoones" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/work-2.jpg" alt="Õues toimuv linnamäng" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/work-3.jpg" alt="Kooliüritusel toimuv seiklusmäng" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/work-4.jpg" alt="Meeskonnapäeva põgenemistoa lahendamine" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- KLIENDID / USALDUS (valikuline – võid hiljem päris logod lisada) -->
+    <section class="section">
+      <div class="container trust">
+        <p class="muted">Meiega on mänginud muuhulgas:</p>
+        <div class="trust-logos">
+          <span class="trust-pill">Koolid</span>
+          <span class="trust-pill">Ettevõtted</span>
+          <span class="trust-pill">Festivalid</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section id="contact" class="section section-contact">
+      <div class="container contact-grid">
+        <div>
+          <h2>Räägime sinu mängust</h2>
+          <p>
+            Kirjelda lühidalt, mis üritus sul plaanis on – vastame tavaliselt
+            1–2 tööpäeva jooksul esialgse ideekavandiga.
+          </p>
+
+          <div class="contact-details">
+            <p><strong>E-post:</strong> <a href="mailto:info@retkeke.ee">info@retkeke.ee</a></p>
+            <!-- Soovi korral lisa telefon -->
+            <!-- <p><strong>Telefon:</strong> +372 0000 000</p> -->
+          </div>
+        </div>
+
+        <form class="contact-form" action="mailto:info@retkeke.ee" method="post" enctype="text/plain">
+          <!-- Kui hiljem lisad backend'i, muuda action vastavaks -->
+          <div class="form-field">
+            <label for="name">Nimi</label>
+            <input id="name" name="Nimi" type="text" required />
+          </div>
+
+          <div class="form-field">
+            <label for="email">E-post</label>
+            <input id="email" name="Email" type="email" required />
+          </div>
+
+          <div class="form-field">
+            <label for="type">Ürituse tüüp</label>
+            <select id="type" name="Ürituse tüüp">
+              <option value="">Vali...</option>
+              <option value="meeskonnapaev">Meeskonnapäev</option>
+              <option value="kooliuritus">Kooliüritus</option>
+              <option value="festival">Festival / avalik üritus</option>
+              <option value="muu">Muu</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Lühikirjeldus</label>
+            <textarea id="message" name="Sõnum" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary full-width">Saada päring</button>
+          <p class="form-note">Vajuta „Saada“ – avaneb sinu e-posti klient ettevalmistatud kirjaga.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© <span id="year"></span> RETKEKE. Kõik õigused kaitstud.</p>
+      <div class="footer-links">
+        <a href="#hero">Algusesse</a>
+        <a href="mailto:info@retkeke.ee">info@retkeke.ee</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
